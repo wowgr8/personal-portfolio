@@ -15,7 +15,21 @@ function Home() {
         </div>
       </div>
       <div className='skills'>
-
+        <h1> Skills</h1>
+        <ol className='list'>
+          <li className='item'>
+            <h2>Front-End</h2>
+            <span> placeholder</span>
+          </li>
+          <li className='item'>
+            <h2>Back-End</h2>
+            <span> placeholder</span>
+          </li>
+          <li className='item'>
+            <h2>Languages</h2>
+            <span> placeholder</span>
+          </li>
+        </ol>
       </div>
     </div>
   )
