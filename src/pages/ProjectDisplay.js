@@ -1,10 +1,20 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { ProjectList } from '../helpers/ProjectList';
+import { BsGithub } from 'react-icons/bs';
 
 function ProjectDisplay() {
   const { id } = useParams();
+  const project = ProjectList[id];
   return (
-    <div>{id}</div>
+    <div className='project'>
+      <h1>{project.name}</h1>
+      <img src={project.image} />
+      <p>
+        <b>Skills:</b> {project.skills}
+      </p>
+      <a href={project.link}><BsGithub /></a>
+    </div>
   )
 }
 
