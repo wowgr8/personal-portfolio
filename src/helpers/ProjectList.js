@@ -5,14 +5,20 @@ import Habitually from '../assets/gif/Habitually.gif';
 export const ProjectList = [
   {
     name: "Habitually",
-    image: Habitually
+    image: Habitually,
+    skills: "ReactJS, Firebase, JavaScript/JSX, Node.js, HTML, CSS, TailwindCSS, PokeAPI",
+    link: "https://github.com/wowgr8/habitually"
   },
   {
     name: "CAMPY",
-    image: CAMPY
+    image: CAMPY,
+    skills: "JavaScript, Jest, Node.js, HTML, CSS, Bootstrap, jQuery, OpenWeatherAPI, RecipeAPI",
+    link: "https://github.com/wowgr8/camp-planner"
   },
   {
     name: "CatFish",
-    image: CatFish
+    image: CatFish,
+    skills: "C#, .NET, MySql/Workbench, Bootstrap, HTML, jQuery, Animate.css",
+    link: "https://github.com/wowgr8/Catfish.Solution"
   }
 ]
