@@ -16,7 +16,7 @@ function Navbar() {
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
         <button onClick={() => {setExpandNavbar((prev) => !prev);}}>
-          <Hamburger />
+          <Hamburger toggled={expandNavbar} toggle={location} />
         </button>
       </div>
       <div className='links'>
