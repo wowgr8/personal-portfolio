@@ -20,15 +20,15 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2>Front-End</h2>
-            <span> placeholder</span>
+            <span> ReactJS, Redux, BootStrap, TailwindCSS, MaterialUI, NPM, StyledComponents, Webpack, CSS, HTML, jQuery.</span>
           </li>
           <li className='item'>
             <h2>Back-End</h2>
-            <span> placeholder</span>
+            <span> MySQL/MySQLWorkbench, NodeJS, Firebase, .NET, Entity Framework/Core, Jest, Postman.</span>
           </li>
           <li className='item'>
             <h2>Languages</h2>
-            <span> placeholder</span>
+            <span> JavaScript, C#</span>
           </li>
         </ol>
       </div>
