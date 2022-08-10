@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { ProjectList } from '../helpers/ProjectList';
 import { BsGithub } from 'react-icons/bs';
+import '../styles/ProjectDisplay.css';
 
 function ProjectDisplay() {
   const { id } = useParams();
