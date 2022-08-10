@@ -1,7 +1,6 @@
 import React from 'react';
 import ProjectItem from '../components/ProjectItem';
-import CAMPY from '../assets/gif/CAMPY.gif';
-import CatFish from '../assets/gif/CatFish.gif';
+import { ProjectList } from '../helpers/ProjectList';
 import '../styles/Projects.css';
 
 
@@ -10,8 +9,9 @@ function Projects() {
     <div className='projects'>
       <h1> My Personal Projects</h1>
       <div className='projectList'>
-        <ProjectItem name='Campy' image={CAMPY} />
-        <ProjectItem name='CatFish' image={CatFish} />
+        {ProjectList.map((project) => {
+          return <ProjectItem name={project.name} image={project.image} />;
+        })}
       </div>
     </div>
   )
