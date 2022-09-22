@@ -1,6 +1,7 @@
 import CAMPY from '../assets/gif/CAMPY.gif';
 import CatFish from '../assets/gif/CatFish.gif';
 import Habitually from '../assets/gif/Habitually.gif';
+import SWAPI from '../assets/gif/SWAPI.gif';
 
 export const ProjectList = [
   {
@@ -20,5 +21,11 @@ export const ProjectList = [
     image: CatFish,
     skills: "C#, .NET, MySql/Workbench, Bootstrap, HTML, jQuery, Animate.css",
     link: "https://github.com/wowgr8/Catfish.Solution"
+  },
+  {
+    name: "Star Wars: CodeTheDream",
+    image: SWAPI,
+    skills: "ReactJS, JavaScript/JSX, Node.js, HTML, TailwindCSS, StarWarsAPI (SWAPI)",
+    link: "https://github.com/wowgr8/star-wars"
   }
 ]
