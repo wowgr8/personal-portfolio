@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { ProjectList } from '../helpers/ProjectList';
-import { BsGithub } from 'react-icons/bs';
+import { BsLink } from 'react-icons/bs';
 import '../styles/ProjectDisplay.css';
 
 function ProjectDisplay() {
@@ -14,7 +14,7 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <a href={project.link}><BsGithub /></a>
+      <a href={project.link}><BsLink style={{ fontSize: '100px' }}/></a>
     </div>
   )
 }
