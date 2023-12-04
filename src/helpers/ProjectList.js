@@ -2,6 +2,7 @@ import CAMPY from '../assets/gif/CAMPY.gif';
 import CatFish from '../assets/gif/CatFish.gif';
 import Habitually from '../assets/gif/Habitually.gif';
 import SWAPI from '../assets/gif/SWAPI.gif';
+import OpineSchool from '../assets/gif/OpineSchool.gif'
 
 export const ProjectList = [
   {
@@ -27,5 +28,11 @@ export const ProjectList = [
     image: SWAPI,
     skills: "ReactJS, JavaScript/JSX, Node.js, HTML, TailwindCSS, StarWarsAPI (SWAPI)",
     link: "https://github.com/wowgr8/star-wars"
+  },
+  {
+    name: "Opine School",
+    image: OpineSchool,
+    skills: "ReactJS, JavaScript/JSX, Material-UI, Node.js, HTML",
+    link: "https://opineschool.com/"
   }
 ]
