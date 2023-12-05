@@ -7,13 +7,13 @@ function Footer() {
   return (
     <div className="w-full h-250 bg-blue-800 flex flex-col justify-center items-center pt-12 mt-250">
       <div className="flex">
-        <a href="https://github.com/wowgr8" className="text-white m-6 text-5xl">
+        <a href="https://github.com/wowgr8" className="text-white m-7 text-5xl">
           <BsGithub />
         </a>
-        <a href="https://www.linkedin.com/in/cesar-aug-lopez/" className="text-white m-6 text-5xl">
+        <a href="https://www.linkedin.com/in/cesar-aug-lopez/" className="text-white m-7 text-5xl">
           <BsLinkedin />
         </a>
-        <a href="mailto:lopez.cesar.aug@gmail.com" className="text-white m-6 text-5xl">
+        <a href="mailto:lopez.cesar.aug@gmail.com" className="text-white m-7 text-5xl">
           <AiOutlineMail />
         </a>
       </div>
