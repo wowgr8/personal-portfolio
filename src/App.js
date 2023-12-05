@@ -1,4 +1,4 @@
-import './App.css';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Experience from './pages/Experience';
@@ -6,11 +6,11 @@ import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
-
+import '../src/App.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className="w-full h-auto flex flex-col font-sans bg-gray-200">
       <Router>
         <Navbar />
         <Routes>
