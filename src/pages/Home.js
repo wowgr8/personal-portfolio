@@ -16,7 +16,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='skills text-3xl w-full flex justify-center flex-col items-center'>
+      <div className='skills text-3xl w-full flex justify-center flex-col items-center h-[90vh]'>
         <h1 className="text-blue-800">Skills</h1>
         <ol className='list list-none lg:w-60%'>
           <li className='item'>
