@@ -5,7 +5,7 @@ import '../styles/Footer.css'
 
 function Footer() {
   return (
-    <div className="w-full h-250 bg-blue-800 flex flex-col justify-center items-center pt-12 mt-250">
+    <div className="w-full h-250 bg-blue-950 flex flex-col justify-center items-center pt-12 mt-250">
       <div className="flex">
         <a href="https://github.com/wowgr8" className="text-white m-7 text-5xl">
           <BsGithub />
