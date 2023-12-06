@@ -62,6 +62,17 @@ function Experience() {
             A platform that allows students to have anonymous debates where only the teacher knows who is posting as well as allowing the teacher to assign which students are responding to which Opinions. 
           </p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement className="vertical-timeline-element--education" date="10/2022 - 04/2023" iconStyle={{ background: "#3e497a", color: "#fff" }} icon={<IoSchoolOutline />} >
+          <h3 className='vertical-timeline-element-title'>
+            Code The Dream - Programming Bootcamp
+          </h3>
+          <h4 className='vertical-timeline-element-subtitle'>
+            Portland, Oregon - Remote
+          </h4>
+          <p> 
+            Certificate in Web and Mobile Development, Computer Software Engineering.
+          </p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   )
