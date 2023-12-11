@@ -7,10 +7,13 @@ function Home() {
   return (
     <div className='w-full items-center font-sans text-blue-800'>
       <div className='about w-full h-screen flex flex-col justify-center items-center text-center bg-blue-950 text-white'>
-        <h2 className="text-7xl text-yellow-400 h-24 pb-4">Howdy, I'm Cesar</h2>
-        <div className='w-70 text-4xl px-8'>
+        <h1 className="text-white mb-4 text-4xl  sm:text-5lg lg:text-6xl font-extrabold">
+          <span className="text-transparent bg-clip-text h-24 pb-4 bg-gradient-to-r from-yellow-300 to-yellow-600">Howdy, I'm</span>
+          <br></br>
           <TypeAnimation
             sequence={[
+              "Cesar Lopez",
+              1500,
               "A Web Developer",
               1000,
               "A Software Engineer",
@@ -23,7 +26,9 @@ function Home() {
             wrapper="span"
             speed={50}
             repeat={Infinity}
-          />
+            />
+        </h1>
+        <div className='w-70 text-4xl px-8'>
           <p className="lg:text-2xl">A driven Junior web developer pivoting from a career in customer service. Motivated to apply my interpersonal skills and passion for solving hard problems towards building trustworthy and dynamic websites.</p>
           <div className='flex items-center justify-center mt-5'>
             <a className="text-5xl m-7 text-white" href='https://github.com/wowgr8'><BsGithub /></a>
