@@ -10,7 +10,7 @@ import '../src/App.css'
 
 function App() {
   return (
-    <div className="w-full h-auto flex flex-col font-sans bg-gray-200">
+    <div className="w-full h-auto flex flex-col font-sans  bg-blue-950">
       <Router>
         <Navbar />
         <Routes>
