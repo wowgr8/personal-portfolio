@@ -1,12 +1,27 @@
 import React from 'react';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
+import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   return (
     <div className='w-full items-center font-sans text-blue-800'>
       <div className='about w-full h-screen flex flex-col justify-center items-center text-center bg-blue-950 text-white'>
         <h2 className="text-7xl text-yellow-400 h-24 pb-4">Howdy, I'm Cesar</h2>
+        <TypeAnimation
+              sequence={[
+                "a Web Developer",
+                1000,
+                "a Software Engineer",
+                1000,
+                "a Creative Problem Solver",
+                1000,
+                "a Continuous Learner"
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
         <div className='w-70 text-4xl px-8'>
           <p className="lg:text-2xl">A driven Junior web developer pivoting from a career in customer service. Motivated to apply my interpersonal skills and passion for solving hard problems towards building trustworthy and dynamic websites.</p>
           <div className='flex items-center justify-center mt-5'>
