@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import AboutSection from './pages/AboutSection';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
@@ -15,7 +16,7 @@ function App() {
         <Navbar />
         <div className="container mt-24 mx-auto px-12 py-4" >
           <Home />
-        
+          <AboutSection />
           <Projects />
           <Experience />
         </div>
