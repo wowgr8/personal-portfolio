@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { FaBars } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
-
-
-
 import Logo from '../assets/img/logo-yellow-cad038.png'
 
 const mobileMenuLinks = [
