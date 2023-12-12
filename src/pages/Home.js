@@ -4,9 +4,9 @@ import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   return (
-    <Element name="home" className='w-full items-center font-sans text-red-800'>
-      <div className='about w-full h-screen flex flex-col justify-center items-center text-center text-white'>
-        <h1 className="text-white mb-4 text-4xl  sm:text-5lg lg:text-6xl font-extrabold">
+    <Element name="home" className='lg:py-16 bg-slate-400'>
+      <div className="grid grid-cols-1 sm:grid-cols-12">
+        <h1 className="text-white mb-4 text-4xl sm:text-5lg lg:text-6xl font-extrabold">
           <span className="text-transparent bg-clip-text h-24 pb-4 bg-gradient-to-r from-yellow-300 to-yellow-600">Howdy, I'm</span>
           <br></br>
           <TypeAnimation
