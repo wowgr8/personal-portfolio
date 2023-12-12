@@ -1,9 +1,10 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   return (
-    <div className='w-full items-center font-sans text-red-800'>
+    <Element name="home" className='w-full items-center font-sans text-red-800'>
       <div className='about w-full h-screen flex flex-col justify-center items-center text-center text-white'>
         <h1 className="text-white mb-4 text-4xl  sm:text-5lg lg:text-6xl font-extrabold">
           <span className="text-transparent bg-clip-text h-24 pb-4 bg-gradient-to-r from-yellow-300 to-yellow-600">Howdy, I'm</span>
@@ -27,7 +28,7 @@ function Home() {
             />
         </h1>
       </div>
-    </div>
+    </Element>
   )
 }
 
