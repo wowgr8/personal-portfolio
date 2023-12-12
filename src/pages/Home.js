@@ -27,6 +27,10 @@ function Home() {
             repeat={Infinity}
             />
         </h1>
+
+        <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
+          Welcome to my portfolio! Dive into my experience as a Software Engineer and Developer, highlighting skills across a diverse set of web development technologies.
+        </p>
       </div>
     </Element>
   )
