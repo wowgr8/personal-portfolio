@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
-// import { Link, useLocation } from 'react-router-dom';
-import { Link as ScrollLink, Element } from 'react-scroll';
+import React, { useState } from 'react';
+import { Link as ScrollLink } from 'react-scroll';
 import { Divide as Hamburger } from 'hamburger-react';
 import Logo from '../assets/img/logo-yellow-cad038.png'
 
@@ -21,15 +20,13 @@ const mobileMenuLinks = [
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar ] = useState(false);
-  // const location = useLocation();
 
-  // useEffect(()=> {
-  //   setExpandNavbar(false)
-  // },[])
+  // const handleNavBarClose = () => {
+  //   setExpandNavbar(false);
+  // };
 
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-blue-950" > 
-                                                                                                                       {/* id={expandNavbar ? "open" : "close"} */}
       <div className="flex container lg-py-4  flex-wrap items-center justify-between mx-auto px-4 py-2 ">
         <ScrollLink to="home" smooth={true} duration={500}>
           <img src={Logo} alt="Logo" width={160} height={40} />
@@ -78,16 +75,17 @@ function Navbar() {
 
 
       {expandNavbar ? (
-        <ul className="flex flex-col py-4 items-center">
+        <ul className="flex flex-col py-4 items-center text-[#ADB7BE]">
           {" "}
           {mobileMenuLinks.map((link, index) => (
             <li key={index}>
               <ScrollLink
-                onClick={() => setExpandNavbar(false)}
+                onClick={()=> setExpandNavbar(false)}
                 to={link.path}
                 spy={true}
                 smooth={true}
                 duration={500}
+                className='hover:text-white'
                 >
                 {link.title}
               </ScrollLink>
@@ -100,9 +98,3 @@ function Navbar() {
 }
 
 export default Navbar
-
-      {/* <div className="toggleButton">
-        <button onClick={() => {setExpandNavbar((prev) => !prev);}}>
-          <Hamburger toggled={expandNavbar}  />
-        </button>
-      </div> */}
