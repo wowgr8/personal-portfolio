@@ -1,7 +1,6 @@
 import React from 'react';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
-import '../styles/Footer.css'
 
 function Footer() {
   return (
