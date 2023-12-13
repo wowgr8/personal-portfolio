@@ -2,6 +2,7 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import ProfilePic from "../assets/img/portfoliopic.png"
 
 function Home() {
   return (
@@ -24,8 +25,8 @@ function Home() {
                 1000,
                 "A Software Engineer",
                 1000,
-                "A Creative Problem Solver",
-                1000,
+                // "A Creative Problem Solver",
+                // 1000,
                 "A Continuous Learner",
                 1000,
               ]}
@@ -38,13 +39,30 @@ function Home() {
           <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
             Welcome to my portfolio! Dive into my experience as a Software Engineer and Developer, highlighting skills across a diverse set of web development technologies.
           </p>
+
+          {/* {Download CV section placeholder} */}
         </motion.div>
-
-
-        <>image placeholder</>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="col-span-5 place-self-center mt-4  lg:mt-0"
+        >
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+            <img
+              src={ProfilePic}
+              alt="hero-image"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-[65%] sm:top-1/2 left-1/2"
+              width={300}
+              height={300}
+              // width={390}
+              // height={350}
+            />
+          </div>
+        </motion.div>
       </div>
     </Element>
-  )
+  ) 
 }
 
 export default Home
