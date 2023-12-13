@@ -5,8 +5,9 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 function AboutSection() {
   return (
-    <Element name="AboutSection">
-      <div className='w-70 text-4xl px-8'>
+    <Element name="AboutSection" className='text-white'>
+      <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+        {/* <img>placeholder</img> */}
         <p className="lg:text-2xl">A driven Junior web developer pivoting from a career in customer service. Motivated to apply my interpersonal skills and passion for solving hard problems towards building trustworthy and dynamic websites.</p>
         <div className='flex items-center justify-center mt-5'>
           <a className="text-5xl m-7 text-white" href='https://www.linkedin.com/in/cesar-aug-lopez/'><BsLinkedin /></a>
