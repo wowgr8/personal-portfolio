@@ -17,7 +17,7 @@ function ProjectDisplay({ image, name, skills, link }) {
           {skills}
         </p>
         <div className='flex items-center justify-center'>
-          <a href={link}><BsLink className='hover:text-yellow-400' style={{ fontSize: '40px' }}/></a>
+          <a href={link}><BsLink className='text-yellow-400' style={{ fontSize: '40px' }}/></a>
         </div>
       </div>
 
