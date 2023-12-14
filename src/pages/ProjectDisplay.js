@@ -1,20 +1,26 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import { ProjectList } from '../helpers/ProjectList';
 import { BsLink } from 'react-icons/bs';
-import '../styles/ProjectDisplay.css';
 
-function ProjectDisplay() {
-  const { id } = useParams();
-  const project = ProjectList[id];
+function ProjectDisplay({ image, name, skills, link }) {
+  
   return (
-    <div className='project'>
-      <h1>{project.name}</h1>
-      <img src={project.image} />
-      <p>
-        <b>Skills:</b> {project.skills}
-      </p>
-      <a href={project.link}><BsLink style={{ fontSize: '100px' }}/></a>
+    <div>
+      <div className='h-52 md:-h-72 rounded-t-xl relative group' 
+        style={{backgroundImage: `url(${image})`, backgroundSize: "cover"}}
+      >
+      </div>
+
+      <div className='text-white rounded-b-xl mt-3 bg-slate-600 py-6 px-4'>
+        <h5 className='text-xl font-semibold mb-2'>{name}</h5>      
+        <p className="text-[#ADB7BE]">Description placeholder</p>
+        <p className="text-[#ADB7BE]">
+          {skills}
+        </p>
+        <div className='flex items-center justify-center'>
+          <a href={link}><BsLink className='hover:text-yellow-400' style={{ fontSize: '40px' }}/></a>
+        </div>
+      </div>
+
     </div>
   )
 }
