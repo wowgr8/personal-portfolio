@@ -1,21 +1,39 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Element } from 'react-scroll';
-import ProjectItem from '../components/ProjectItem';
+import ProjectDisplay from '../pages/ProjectDisplay';
 import { ProjectList } from '../helpers/ProjectList';
-import '../styles/Projects.css';
+import {motion, useInView} from "framer-motion"
 
 
 function Projects() {
+  const ref = useRef(null)
+  const isInView = useInView(ref, {once:true})
+
+  const cardVariants = {
+    initial:{y:50,opacity:0},
+    animate: {y:0 , opacity:1}
+  }
+
   return (
     <Element name="projects">
-      <div className='projects'>
-        <h1 className='font-bold text-6xl mb-12'> My Projects</h1>
-        <div className='projectList'>
+        <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'> 
+          My Projects
+        </h2>
+        <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
           {ProjectList.map((project, index) => {
-            return <ProjectItem key={index} name={project.name} image={project.image} />;
+            return (
+              <motion.li
+              key={project.id}
+              variants={cardVariants}
+              initial="initial"
+              animate={isInView ? "animate" : "initial"}
+              transition = {{duration: 0.3, delay:index * 0.4 }}
+              > 
+                <ProjectDisplay key={index} name={project.name} image={project.image} skills={project.skills} link={project.link}/>
+              </motion.li>
+            )
           })}
-        </div>
-      </div>
+      </ul>
     </Element>
   )
 }
