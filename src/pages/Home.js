@@ -25,8 +25,6 @@ function Home() {
                 1000,
                 "A Software Engineer",
                 1000,
-                // "A Creative Problem Solver",
-                // 1000,
                 "A Continuous Learner",
                 1000,
               ]}
@@ -52,11 +50,7 @@ function Home() {
             <img
               src={ProfilePic}
               alt="hero-image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-[65%] sm:top-1/2 left-1/2"
-              width={300}
-              height={300}
-              // width={390}
-              // height={350}
+              className="absolute transform -translate-x-1/2 -translate-y-1/2  sm:top-1/2 left-1/2 lg:top-[55%] lg:w-[300px] lg:h-[400px] w-[200px] h-[260px] top-[55%]"
             />
           </div>
         </motion.div>
