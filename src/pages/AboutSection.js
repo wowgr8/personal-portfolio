@@ -48,7 +48,7 @@ function AboutSection() {
   };
 
   return (
-    <Element name="AboutSection" className='text-white bg-slate-700'>
+    <Element name="AboutSection" className='text-white'>
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         <img src={CartoonComputerBoy} width={400} height={400} alt="cartoon web developer"/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
