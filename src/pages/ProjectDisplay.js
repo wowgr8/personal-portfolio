@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsLink } from 'react-icons/bs';
 
-function ProjectDisplay({ image, name, skills, link }) {
+function ProjectDisplay({ image, name, skills, link, description }) {
   
   return (
     <div>
@@ -12,7 +12,7 @@ function ProjectDisplay({ image, name, skills, link }) {
 
       <div className='text-white rounded-b-xl mt-3 bg-slate-600 py-6 px-4'>
         <h5 className='text-xl font-semibold mb-2'>{name}</h5>      
-        <p className="text-[#ADB7BE]">Description placeholder</p>
+        <p className="text-[#ADB7BE]">{description}</p>
         <p className="text-[#ADB7BE]">
           {skills}
         </p>
