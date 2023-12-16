@@ -29,7 +29,7 @@ function Projects() {
               animate={isInView ? "animate" : "initial"}
               transition = {{duration: 0.3, delay:index * 0.4 }}
               > 
-                <ProjectDisplay key={index} name={project.name} image={project.image} skills={project.skills} link={project.link}/>
+                <ProjectDisplay key={index} name={project.name} image={project.image} skills={project.skills} link={project.link} description={project.description}/>
               </motion.li>
             )
           })}
