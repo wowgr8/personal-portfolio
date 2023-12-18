@@ -11,15 +11,15 @@ export const ProjectList = [
     name: "Opine School",
     image: OpineSchool,
     description: "Created an online anonymous student-teacher forum as part of an internship, empowering teachers to assign topics and enabling students to post questions and answers. Leveraged React for a dynamic user interface, Material-UI for a polished design, and Firebase for seamless data storage and retrieval. The platform fosters open communication, encourages student engagement, and enhances the overall learning experience in a secure and user-friendly environment.",
-    skills: "ReactJS • JavaScript/JSX • Material-UI • Node.js • HTML",
+    skills: "React • JavaScript/JSX • Material-UI • Node.js • HTML",
     link: "https://opineschool.com/"
   },
   {
     id: 2,
     name: "Phrazel",
     image: phrazel,
-    description: "Crafted an immersive online game featuring real-time in-game chat using WebSockets, enabling players to join diverse game rooms. Participants submit words and take turns guessing others' submissions based on API-provided clues, all within a timed and competitive setting. Developed with ReactJS, JavaScript/JSX, WebSockets, TailwindCSS for a polished design, Node.js/Express for server-side robustness, and MongoDB as the backend database. The result is an interactive and entertaining experience, seamlessly blending word guessing with strategic clues.",
-    skills: "ReactJS • JavaScript/JSX • Websockets • MongoDB • TailwindCSS • Node.js • Express • HTML",
+    description: "Crafted an immersive online game featuring real-time in-game chat using WebSockets, enabling players to join diverse game rooms. Participants submit words and take turns guessing others' submissions based on API-provided clues, all within a timed and competitive setting. Developed with React, WebSockets, TailwindCSS for a polished design, Node.js/Express for server-side robustness, and MongoDB as the backend database. The result is an interactive and entertaining experience, seamlessly blending word guessing with strategic clues.",
+    skills: "React • JavaScript/JSX • Websockets • MongoDB • TailwindCSS • Node.js • Express • HTML",
     link: "https://github.com/wowgr8/phrazel-frontend"
   },
   {
