@@ -26,7 +26,7 @@ export const ProjectList = [
     id: 3,
     name: "Habitually",
     image: Habitually,
-    skills: "ReactJS • Firebase • JavaScript/JSX • Node.js • HTML • CSS • TailwindCSS • PokeAPI",
+    skills: "React • Firebase • JavaScript/JSX • Node.js • HTML • CSS • TailwindCSS • PokeAPI",
     link: "https://github.com/wowgr8/habitually"
   },
   {
