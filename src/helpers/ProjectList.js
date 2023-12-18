@@ -10,6 +10,7 @@ export const ProjectList = [
     id: 1,
     name: "Opine School",
     image: OpineSchool,
+    description: "Created an online anonymous student-teacher forum as part of an internship, empowering teachers to assign topics and enabling students to post questions and answers. Leveraged React for a dynamic user interface, Material-UI for a polished design, and Firebase for seamless data storage and retrieval. The platform fosters open communication, encourages student engagement, and enhances the overall learning experience in a secure and user-friendly environment.",
     skills: "ReactJS • JavaScript/JSX • Material-UI • Node.js • HTML",
     link: "https://opineschool.com/"
   },
