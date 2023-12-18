@@ -26,6 +26,7 @@ export const ProjectList = [
     id: 3,
     name: "Habitually",
     image: Habitually,
+    description: "Designed a transformative habit-building platform that empowers users to cultivate positive habits and break undesirable ones. The project facilitates goal creation, enabling users to set dates, add descriptions, and track progress through visual timers. Leveraging React, Firebase, Node.js, HTML, CSS, TailwindCSS, and the PokeAPI, the platform enhances user engagement by rewarding goal completion with the addition of a new Pokémon to their virtual garden. This unique gamified approach encourages users to stay motivated, visualize their progress, and turn habit-building into an enjoyable and interactive experience.",
     skills: "React • Firebase • JavaScript/JSX • Node.js • HTML • CSS • TailwindCSS • PokeAPI",
     link: "https://github.com/wowgr8/habitually"
   },
