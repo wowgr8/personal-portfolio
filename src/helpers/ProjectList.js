@@ -18,7 +18,8 @@ export const ProjectList = [
     id: 2,
     name: "Phrazel",
     image: phrazel,
-    skills: "ReactJS • JavaScript/JSX • Websockets • TailwindCSS • Node.js • Express • HTML",
+    description: "Crafted an immersive online game featuring real-time in-game chat using WebSockets, enabling players to join diverse game rooms. Participants submit words and take turns guessing others' submissions based on API-provided clues, all within a timed and competitive setting. Developed with ReactJS, JavaScript/JSX, WebSockets, TailwindCSS for a polished design, Node.js/Express for server-side robustness, and MongoDB as the backend database. The result is an interactive and entertaining experience, seamlessly blending word guessing with strategic clues.",
+    skills: "ReactJS • JavaScript/JSX • Websockets • MongoDB • TailwindCSS • Node.js • Express • HTML",
     link: "https://github.com/wowgr8/phrazel-frontend"
   },
   {
