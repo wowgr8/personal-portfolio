@@ -50,6 +50,7 @@ export const ProjectList = [
     id: 6,
     name: "Star Wars: CodeTheDream",
     image: SWAPI,
+    description: "Developed a project that leverages React, JavaScript, and Node.js to create an API call fetching detailed information about Star Wars characters. Users can easily select a character, view their home planet, and explore character-specific details. Additionally, the application allows users to delve deeper into planet details by selecting a character's home planet, showcasing information such as indigenous animals and terrain. The project utilizes HTML, TailwindCSS for styling, and integrates the StarWarsAPI (SWAPI) for comprehensive Star Wars universe data. This interactive platform provides users with an immersive experience, offering insights into their favorite characters and the planets they call home.",
     skills: "React • JavaScript • Node.js • HTML • TailwindCSS • StarWarsAPI (SWAPI)",
     link: "https://github.com/wowgr8/star-wars"
   }
