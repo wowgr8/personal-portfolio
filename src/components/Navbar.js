@@ -4,23 +4,23 @@ import { FaBars } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
 import Logo from '../assets/img/logo-yellow-cad038.png'
 
-const mobileMenuLinks = [
-  {
-    title: "About",
-    path: "AboutSection",
-  },
-  {
-    title: "Projects",
-    path: "projects",
-  },
-  {
-    title: "Experience",
-    path: "experience",
-  },
-];
-
 function Navbar() {
   const [expandNavbar, setExpandNavbar ] = useState(false);
+
+  const mobileMenuLinks = [
+    {
+      title: "About",
+      path: "AboutSection",
+    },
+    {
+      title: "Projects",
+      path: "projects",
+    },
+    {
+      title: "Experience",
+      path: "experience",
+    },
+  ];
 
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-blue-950" > 
@@ -32,14 +32,14 @@ function Navbar() {
           {!expandNavbar ? (
             <button
               onClick={() => setExpandNavbar(true)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white text-slate-200"
+              className="flex items-center px-3 py-2 border rounded border-yellow-200 hover:text-yellow-400 hover:border-yellow-400 text-yellow-300"
             >
               <FaBars className=" h-5 w-5" />
             </button>
           ) : (
             <button
               onClick={() => setExpandNavbar(false)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white text-slate-200"
+              className="flex items-center px-3 py-2 border rounded border-yellow-200 hover:text-yellow-400 hover:border-yellow-400 text-yellow-300"
             >
               <IoCloseSharp className="h-5 w-5" />
             </button>
