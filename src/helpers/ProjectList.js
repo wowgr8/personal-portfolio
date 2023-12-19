@@ -34,6 +34,7 @@ export const ProjectList = [
     id: 4,
     name: "CAMPY",
     image: CAMPY,
+    description: "Collaborated on a group project to create a camping trip planning app. This versatile tool lets users check weather forecasts, create packing lists, and discover recipes. Utilized JavaScript, Jest for testing, Node.js, HTML, CSS, Bootstrap, jQuery, and integrated OpenWeatherAPI and RecipeAPI for real-time updates. The result is an intuitive platform simplifying camping preparation for a memorable outdoor experience.",
     skills: "JavaScript • Jest • Node.js • HTML • CSS • Bootstrap • jQuery • OpenWeatherAPI • RecipeAPI",
     link: "https://github.com/wowgr8/camp-planner"
   },
@@ -41,6 +42,7 @@ export const ProjectList = [
     id: 5,
     name: "CatFish",
     image: CatFish,
+    description: "Collaborated on a group project to develop a pet-centric, Tinder-like app for connecting furry friends. Users create profiles for their pets, swipe left and right to discover potential playmates, and seamlessly set up play dates. Built with C#, .NET, and MySQL/Workbench for robust backend functionality. The front end features a user-friendly interface using Bootstrap, HTML, jQuery, and Animate.css for engaging animations. The result is a playful and interactive platform that brings pet owners together, fostering connections and facilitating fun play dates for their beloved companions.",
     skills: "C# • .NET • MySql/Workbench • Bootstrap • HTML • jQuery • Animate.css",
     link: "https://github.com/wowgr8/Catfish.Solution"
   },
