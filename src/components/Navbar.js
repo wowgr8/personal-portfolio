@@ -47,17 +47,17 @@ function Navbar() {
         </div>
         <div className="menu hidden md:block md:w-auto" id="navbar">
           <ul className="flex py-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 ">
-            <li className="mr-6 hover:text-white">
+            <li className="mr-6 hover:text-yellow-300">
               <ScrollLink to="AboutSection" smooth={true} duration={500}>
                 About
               </ScrollLink>
             </li>
-            <li className="mr-6 hover:text-white">
+            <li className="mr-6 hover:text-yellow-300">
               <ScrollLink to="projects" smooth={true} duration={500}>
                 Projects
               </ScrollLink>
             </li>
-            <li className="mr-6 hover:text-white">
+            <li className="mr-6 hover:text-yellow-300">
               <ScrollLink to="experience" smooth={true} duration={500}>
                 Experience
               </ScrollLink>
@@ -76,7 +76,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className='hover:text-white'
+                className='hover:text-yellow-300'
                 >
                 {link.title}
               </ScrollLink>
