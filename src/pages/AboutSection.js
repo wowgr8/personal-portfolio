@@ -2,8 +2,23 @@ import React, {useState, useTransition} from 'react';
 import { Element } from 'react-scroll';
 import CartoonComputerBoy from '../assets/img/cartoon-computer-boy.png';
 import SkillsButton from '../components/SkillsButton';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
-const SKILLS_DATA = [
+const ABOUT_ME_DATA = [
+  {
+    title: "Socials",
+    id: "socials",
+    content: (
+      <div className="list-disc flex justify-center pl-2">   
+          <a href="https://github.com/wowgr8" className="text-white hover:text-yellow-300 m-7 text-5xl">
+            <BsGithub />
+          </a>
+          <a href="https://www.linkedin.com/in/cesar-aug-lopez/" className="text-white hover:text-yellow-300 m-7 text-5xl">
+            <BsLinkedin />
+          </a>
+      </div>
+    ),
+  },
   {
     title: "Skills",
     id: "skills",
@@ -38,7 +53,7 @@ const SKILLS_DATA = [
 ];
 
 function AboutSection() {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("socials");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -58,6 +73,12 @@ function AboutSection() {
           </p>
           <div className="flex flex-row mt-8">
             <SkillsButton
+              selectTab={() => handleTabChange("socials")}
+              active={tab === "socials"}
+            >
+              Socials
+            </SkillsButton>
+            <SkillsButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
@@ -71,7 +92,7 @@ function AboutSection() {
             </SkillsButton>
           </div>
           <div className="mt-8 ">
-            {SKILLS_DATA.find((t) => t.id === tab).content}
+            {ABOUT_ME_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
       </div>
