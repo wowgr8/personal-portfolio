@@ -13,6 +13,7 @@ function ProjectDisplay({ image, name, skills, link, description }) {
       <div className='text-white rounded-b-xl mt-3 bg-slate-600 py-6 px-4'>
         <h5 className='text-xl font-semibold mb-2'>{name}</h5>      
         <p className="text-[#ADB7BE]">{description}</p>
+        <br></br>
         <p className="text-[#ADB7BE]">
           {skills}
         </p>
