@@ -3,16 +3,17 @@ import { Element } from 'react-scroll';
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import ProfilePic from "../assets/img/portfoliopic.png"
+import ResumeUrl from "../assets/pdf/CesarLopez-SoftwareEngineer-Resume.pdf"
 
 function Home() {
 
   const handleDownloadResume = () => {
-    const resumeUrl = "../assets/pdf/CesarLopez-SoftwareEngineer-Resume.pdf"
-    const link = document.createElement("a")
-    link.href = resumeUrl
-    link.download = "CesarLopez-SoftwareEngineer-Resume.pdf"
-    link.click()
+    const link = document.createElement("a");
+    link.href = ResumeUrl;
+    link.download = "CesarLopez-SoftwareEngineer-Resume.pdf";
+    link.click();
   }
+  
   return (
     <Element name="home" className='lg:py-16'>
       <div className="grid grid-cols-1 sm:grid-cols-12">
