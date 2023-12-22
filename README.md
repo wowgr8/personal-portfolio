@@ -137,6 +137,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 ## Known Bugs <a id="bugs"></a>
 
+* _Previously hosted on firebase: https://personal-portfolio-f8241.firebaseapp.com_
 * _No known issues_
 
 
