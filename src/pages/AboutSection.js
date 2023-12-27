@@ -25,8 +25,9 @@ const ABOUT_ME_DATA = [
     content: (
       <ul className=" list-disc pl-2">
         <li>JavaScript</li>
-        <li>C#</li>
         <li>React</li>
+        <li>Python</li>
+        <li>C#</li>
         <li>Redux</li>
         <li>Node.js</li>
         <li>Express</li>
