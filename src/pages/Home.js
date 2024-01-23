@@ -67,7 +67,7 @@ function Home() {
             <img
               src={ProfilePic2Cropped}
               alt="hero-image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2  sm:top-1/2 left-1/2 lg:top-[55%] lg:w-[300px] lg:h-[400px] w-[200px] h-[260px] top-[55%]"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2  sm:top-1/2 left-1/2 lg:top-[65%] lg:w-[500px] lg:h-[650px] w-[400px] h-[360px] top-[60%]"
             />
           </div>
         </motion.div>
