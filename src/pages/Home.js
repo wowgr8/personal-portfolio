@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Element } from 'react-scroll';
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import ProfilePic from "../assets/img/portfoliopic.png"
-import ProfilePic2 from "../assets/img/siliconevalleyone.png"
 import ProfilePic2Cropped from "../assets/img/siliconevalleyoneCropped.png"
 import ResumeUrl from "../assets/pdf/CesarLopez-SoftwareEngineer-Resume.pdf"
 
