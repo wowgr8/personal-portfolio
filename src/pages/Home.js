@@ -66,7 +66,7 @@ function Home() {
             <img
               src={HDPorfolioPic}
               alt="hero-image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2  sm:top-1/2 left-1/2 lg:top-[65%] lg:w-[500px] lg:h-[650px] w-[400px] h-[360px] top-[60%]"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2  sm:top-1/2 left-1/2 lg:top-[68%] lg:w-[400px] lg:h-[650px] w-[400px] h-[360px] top-[65%]"
             />
           </div>
         </motion.div>
