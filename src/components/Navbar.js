@@ -3,6 +3,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import { FaBars } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
 import Logo from '../assets/img/logo-yellow-cad038.png'
+import ScrollIndicator from './ScrollIndicator';
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar ] = useState(false);
@@ -84,6 +85,7 @@ function Navbar() {
           ))}
         </ul>
       ) : null}
+      <ScrollIndicator />
     </nav>
   )
 }
