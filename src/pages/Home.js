@@ -2,7 +2,6 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import ProfilePic from "../assets/img/siliconeForestCropped.png"
 import HDPorfolioPic from "../assets/img/hd-portfolio-pic.png"
 import ResumeUrl from "../assets/pdf/CesarLopez-SoftwareEngineer-Resume.pdf"
 
