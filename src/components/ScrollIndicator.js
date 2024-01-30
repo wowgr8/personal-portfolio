@@ -27,8 +27,9 @@ const ScrollIndicator = () => {
   }, []);
 
   return (
+    // indicates the total scroll height
     <div className="bg-transparent fixed h-0.5 w-screen">
-      <div
+      <div  // indicates the scroll progress
         className="bg-gradient-to-r from-yellow-300 to-yellow-600 h-full"
         style={{ width: scroll + "%" }}
       ></div>
